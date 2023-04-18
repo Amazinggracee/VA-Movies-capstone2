@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/Amazinggracee/African-kitchen#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
     "@types/jest": "^29.5.0",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
@@ -78,6 +80,7 @@
     "autoprefixer": "^9.8.8",
     "available-typed-arrays": "^1.0.5",
     "axe-core": "^4.7.0",
+    "axios": "^1.3.5",
     "babel-jest": "^29.5.0",
     "babel-plugin-istanbul": "^6.1.1",
     "babel-plugin-jest-hoist": "^29.5.0",
