@@ -4,7 +4,7 @@
   "description": "The project is about African dishes",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch-all",
     "dev": "webpack --mode development",
     "start": "webpack serve --open"
   },
