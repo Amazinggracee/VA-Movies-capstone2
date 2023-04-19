@@ -76,7 +76,7 @@ https://amazinggracee.github.io/Leaderboard1/dist/
 You can have a copy of this repo run on your local machine by just directly cloning it.
 
 To get a local copy up and running follow these simple example steps.
-1. Download the `Zip` or `(git clone)[https://github.com/Amazinggracee/Leaderboard1.git]`
+1. Download the `Zip` or `(git clone)[git+https://github.com/Amazinggracee/African-kitchen.git]`
 2. `cd Leaderboard`
 3. Then open in your browser by using `live server`
 

@@ -1,4 +1,3 @@
-/* eslint-disable */
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
@@ -8,15 +7,18 @@ module.exports = {
   devServer: {
     static: "./dist",
   },
+  output: {
+    filename: "[name].bundle.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
     }),
   ],
-  output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
-    clean: true,
+  optimization: {
+    runtimeChunk: "single",
   },
   module: {
     rules: [
@@ -25,8 +27,21 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"],
+      },
+      {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: "asset/resource",
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "images/",
+            },
+          },
+        ],
       },
     ],
   },
