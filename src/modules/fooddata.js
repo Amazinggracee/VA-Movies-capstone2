@@ -1,6 +1,6 @@
 const getData = async () => {
   let arr = [];
-  const url = 'https://www.themealdb.com/api/json/v1/1/random.php';
+  const url = 'www.themealdb.com/api/json/v1/1/lookup.php?i=52772';
   await fetch(url)
     .then((response) => response.json())
     .then((data) => {
