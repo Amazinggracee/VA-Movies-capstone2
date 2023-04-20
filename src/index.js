@@ -1,15 +1,15 @@
 import './style.css';
 import getData from './modules/getApi.js';
-import getLikes from './modules/getlikes.js';
-import modalDisplay from './modules/modal.js';
-import addLikes from './modules/displaylikes.js';
-import navbase from './modules/nav.js';
+// import getLikes from './modules/getlikes.js';
+// import modalDisplay from './modules/modal.js';
+// import addLikes from './modules/displaylikes.js';
+// import navbase from './modules/nav.js';
 
-navbase();
+//navbase();
 
-modalDisplay();
+//modalDisplay();
 
-addLikes();
+//addLikes();
 
 getData().then((value) => {
   value.forEach((item, index) => {
@@ -32,7 +32,7 @@ getData().then((value) => {
       document.querySelector('.movie-list').appendChild(container);
     }
   });
-  getLikes();
-  modalDisplay();
-  addLikes();
+  //getLikes();
+  //modalDisplay();
+  //addLikes();
 });
