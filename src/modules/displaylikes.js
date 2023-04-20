@@ -1,6 +1,6 @@
 import postLike from './postlikes.js';
 
-const addEventToLike = () => {
+const addLikes = () => {
   const getAllLike = document.querySelectorAll('.like i');
   getAllLike.forEach((item) => {
     item.addEventListener('click', function () {
@@ -19,4 +19,4 @@ const addEventToLike = () => {
   });
 };
 
-export default addEventToLike;
+export default addLikes;

@@ -1,7 +1,7 @@
 import displayComments from './displaycomments.js';
 import addComment from './addcomment.js';
 
-const addEventToCommentBtn = () => {
+const modalDisplay = () => {
   const getAllBtn = document.querySelectorAll('.commentBtn');
   getAllBtn.forEach((item) => {
     item.addEventListener('click', function () {
@@ -34,4 +34,4 @@ const addEventToCommentBtn = () => {
   });
 };
 
-export default addEventToCommentBtn;
+export default modalDisplay;
