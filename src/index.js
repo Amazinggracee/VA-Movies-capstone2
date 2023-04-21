@@ -1,3 +1,5 @@
+/** @format */
+
 import './style.css';
 import getData from './modules/getApi.js';
 import getLikes from './modules/getlikes.js';
