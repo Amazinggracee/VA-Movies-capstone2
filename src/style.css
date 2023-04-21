@@ -139,7 +139,6 @@ main {
   margin-right: 0.5rem;
 }
 
-
 .commentBtn {
   border: 2px solid var(--paragraph-color);
   padding: 10px 20px;
@@ -150,7 +149,6 @@ main {
   margin-top: auto;
   box-shadow: 4px 4px 0 var(--paragraph-color);
 }
-
 
 .popup {
   max-width: 600px;
@@ -287,7 +285,6 @@ footer {
   gap: 1rem;
 }
 
-
 @media (min-width: 768px) {
   .humburgerToggle {
     display: none;
@@ -346,7 +343,6 @@ footer {
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
-
 
   .menu .humburgerToggle {
     display: none;
