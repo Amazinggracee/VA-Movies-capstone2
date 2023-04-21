@@ -32,6 +32,8 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
+  gap: 24px;
+  font-size: 26px;
 }
 
 a {
@@ -236,6 +238,7 @@ main {
   margin-bottom: 10px;
   cursor: pointer;
   margin-top: auto;
+  box-shadow: 4px 4px 0 #000;
 }
 
 .popup {
@@ -295,6 +298,16 @@ main {
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.form a img {
+width: 30px;
+}
+
+.form a .btnContact {
+  margin-top: 1rem;
+  border: none;
+  color: #000;
 }
 
 .topic {
