@@ -1,4 +1,4 @@
- <a name="readme-top">African-kitchen</a>
+ <a name="readme-top">VA-Movies-capstone2</a>
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [African-kitchen] <a name="about-project"></a>
+# 📖 [VA-Movies-capstone2] <a name="about-project"></a>
 
-**[African-kitchen]** The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+**[VA-Movies-capstone2]** Is about building your own web application based on an external API. All data is preserved thanks to the external https://api.tvmaze.com API service.
 
 
 ## Learning objectives <a name="objectives"></a>
@@ -91,7 +91,7 @@ Counters We have counters in all the interfaces that show:
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-https://amazinggracee.github.io/Leaderboard1/dist/
+https://www.loom.com/share/a91e3546fb7246e38e305f832778026c
 
 - [Click Here]()
 
@@ -158,6 +158,11 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 - Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
 - LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
+👤 **Victor Kanyi**
+
+- GitHub: [@jkanyi-web](https://github.com/jkanyi-web)
+- Twitter: [@jkanyi757](https://twitter.com/jkanyi757)
+- LinkedIn: [Victor-kanyi](https://www.linkedin.com/in/victor-kanyi-6668aa188/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
