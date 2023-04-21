@@ -4,7 +4,7 @@
   "description": "<a name=\"readme-top\">African-kitchen</a>\r # 📗 Table of Contents",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "watch": "webpack --watch",
     "dev": "webpack --mode development",
     "start": "webpack serve --open"
