@@ -133,13 +133,13 @@ main {
   flex-direction: column;
 }
 
-.like {
+.get-likes {
   padding-bottom: 10px;
   padding-top: 5px;
   margin-top: auto;
 }
 
-.like i {
+.get-likes i {
   cursor: pointer;
   margin-right: 0.5rem;
 }
@@ -297,7 +297,7 @@ main {
   margin-bottom: 10px;
 }
 
-.addcommenttitle {
+.topic {
   text-align: center;
   font-size: 20px;
   font-weight: 500;

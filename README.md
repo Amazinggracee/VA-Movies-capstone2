@@ -28,15 +28,21 @@
 
 ## Learning objectives <a name="objectives"></a>
 
+- Use JavaScript to make websites dynamic and build basic single page apps.
+- Use ES6 syntax.
+- Use ES6 modules.
 - Use callbacks and promises.
-- Learn how to use proper ES6 syntax.
-- Use ES6 modules to write modular JavaScript.
-- Use webpack to bundle JavaScript.
+- Use webpack.
+- Apply JavaScript best practices and language style guides in code.
+- Use AAA pattern for unit tests.
+- Write units tests for a JavaScript app.
+- Follow Gitflow.
+- Solve simple git conflicts.
 - Send and receive data from an API.
 - Use API documentation.
 - Understand and use JSON.
 - Make JavaScript code asynchronous.
-- Understand how to use medium-fidelity wireframes to create a UI.
+- Perform a code review for a team member.
 
 ## 🛠 Built With <a name="built-with"></a>
 - Javascript
@@ -49,12 +55,34 @@
 
 ### Key Features <a name="key-features"></a>
 
-- [ ] Leaderboard-structure
-- [ ] Adding_a_new_score
-- [ ] ** API Documentation
-- [ ] ** Create a new game
-- [ ] ** Implement the "Refresh" button
-- [ ] ** Now you should improve the look and feel of the application
+## APIs
+APIs used:
+- TVmaze API: data about TV series and movies.
+
+## Interfaces:
+- [ ] The home page.
+- [ ] The comments popup.
+## Home page
+Remember that your page should make only 2 requests:
+One to the base API.
+And one to the Involvement API.
+When the user clicks on the Like button of an item, the interaction is recorded in the Involvement API and the screen is updated.
+When the user clicks on the "Comments" button, the Comments popup appears.
+Home page header and navigation similar to the given mockup.
+Home page footer similar to the given mockup.
+## Comments popup
+When the popup loads, the webapp retrieves data from:
+The selected API and shows details about the selected item.
+The Involvement API to show the item comments.
+When the user clicks on the "Comment" button, the data is recorded in the Involvement API and the screen is updated.
+When the popup loads, the webapp retrieves data from:
+The selected API and shows details about the selected item.
+The Involvement API to show the item reservations.
+When the user clicks on the "Reserve" button, the data is recorded in the Involvement API and the screen is updated.
+Counters We have counters in all the interfaces that show:
+
+- The number of items (home).
+- The number of comments (comments popup).
 
 
 
@@ -76,7 +104,7 @@ https://amazinggracee.github.io/Leaderboard1/dist/
 You can have a copy of this repo run on your local machine by just directly cloning it.
 
 To get a local copy up and running follow these simple example steps.
-1. Download the `Zip` or `(git clone)[git+https://github.com/Amazinggracee/African-kitchen.git]`
+1. Download the `Zip` or `(git clone)[https://github.com/Amazinggracee/VA-Movies-capstone2.git]`
 2. `cd Leaderboard`
 3. Then open in your browser by using `live server`
 
@@ -148,7 +176,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Amazinggracee/African-kitchen/issues).
+Feel free to check the [issues page](https://github.com/Amazinggracee/VA-Movies-capstone2/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
