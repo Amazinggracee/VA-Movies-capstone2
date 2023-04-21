@@ -88,9 +88,11 @@ Counters We have counters in all the interfaces that show:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO AND THE DEPLOY -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo and video <a name="live-demo"></a>
+https://amazinggracee.github.io/VA-Movies-capstone2/dist
+
 https://www.loom.com/share/a91e3546fb7246e38e305f832778026c
 
 - [Click Here]()
