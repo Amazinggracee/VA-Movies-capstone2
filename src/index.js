@@ -1,13 +1,13 @@
 import './style.css';
 import getData from './modules/getApi.js';
 import getLikes from './modules/getlikes.js';
-// import modalDisplay from './modules/modal.js';
+import modalDisplay from './modules/modal.js';
 import addLikes from './modules/displaylikes.js';
 import navbase from './modules/nav.js';
 
 navbase();
 
-//modalDisplay();
+modalDisplay();
 
 addLikes();
 
@@ -33,6 +33,6 @@ getData().then((value) => {
     }
   });
   getLikes();
-  //modalDisplay();
+  modalDisplay();
   addLikes();
 });
