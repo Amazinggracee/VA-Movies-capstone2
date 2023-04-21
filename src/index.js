@@ -6,6 +6,7 @@ import getLikes from './modules/getlikes.js';
 import modalDisplay from './modules/modal.js';
 import addLikes from './modules/displaylikes.js';
 import navbase from './modules/nav.js';
+import moviesCounter from './modules/cardCount.js';
 
 navbase();
 
@@ -38,3 +39,7 @@ getData().then((value) => {
   modalDisplay();
   addLikes();
 });
+
+const count = moviesCounter();
+const navCount = document.querySelectorAll('#cards');
+navCount.innerText = count;
