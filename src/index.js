@@ -6,7 +6,9 @@ import getLikes from './modules/getlikes.js';
 import modalDisplay from './modules/modal.js';
 import addLikes from './modules/displaylikes.js';
 import navbase from './modules/nav.js';
-import moviesCounter from './modules/cardCount.js';
+import movieNumber from './modules/cardCount.js';
+
+let count;
 
 navbase();
 
@@ -38,8 +40,8 @@ getData().then((value) => {
   getLikes();
   modalDisplay();
   addLikes();
+  const cards = document.querySelectorAll('.item');
+  count = movieNumber(cards);
+  const navCount = document.querySelector('#cards');
+  navCount.innerText = `(${count})`;
 });
-
-const count = moviesCounter();
-const navCount = document.querySelectorAll('#cards');
-navCount.innerText = count;
