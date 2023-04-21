@@ -1,8 +1,8 @@
 import postLike from './postlikes.js';
 
 const addLikes = () => {
-  const getAllLike = document.querySelectorAll('.like i');
-  getAllLike.forEach((item) => {
+  const meLike = document.querySelectorAll('.get-likes i');
+  meLike.forEach((item) => {
     item.addEventListener('click', function () {
       const stop = this.dataset.id;
       const getLike = document.querySelector(`[data-id="${this.dataset.id}"]`)

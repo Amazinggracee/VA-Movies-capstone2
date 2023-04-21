@@ -22,7 +22,7 @@ getData().then((value) => {
             </div>
             <div class="item-info">
               <h4>${item.name}</h4>
-              <div class="like">
+              <div class="get-likes">
                   <p><i data-id="${item.id}" class="fa fa-heart-o" aria-hidden="true"></i> <span class="qty">0</span> <span>Likes</span></p>
               </div>
             </div>
