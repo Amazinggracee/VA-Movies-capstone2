@@ -1,12 +1,33 @@
-/** @format */
+import comments from '../mockUp/commentCounter.js';
 
-const getCommentsCount = require('../mockUp/commentCounter.js');
-
-test('comments should not be less than 0', () => {
-  expect(getCommentsCount()).not.toBe(-1);
+const commentList = [
+  {
+    username: 'Amara',
+    comment: 'Lovely movie',
+  },
+  {
+    username: 'Victor',
+    comment: 'very interesting movie',
+  },
+  {
+    username: 'Gladwin',
+    comment: 'Merry christmas',
+  },
+  {
+    username: 'Joe',
+    comment: 'Happy new year',
+  },
+  {
+    username: 'Bernice',
+    comment: 'Nice movie',
+  },
+  {
+    username: 'Peter',
+    comment: 'Testing the microphone.',
+  },
+];
+describe('Comments test', () => {
+  test('comment List == 6', () => {
+    expect(comments(commentList)).toBe(6);
+  });
 });
-
-// test('returns 0 if the section is not found', () => {
-//   commentSection.innerHTML = '';
-//   expect(getCommentsCount()).toBe(0);
-// });
