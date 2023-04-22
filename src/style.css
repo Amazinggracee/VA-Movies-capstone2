@@ -145,7 +145,7 @@ main {
   background-color: var(--white-color);
   align-self: center;
   margin-bottom: 10px;
-  cursor: pointer;
+  cursor: grabbing;
   margin-top: auto;
   box-shadow: 4px 4px 0 var(--paragraph-color);
 }
